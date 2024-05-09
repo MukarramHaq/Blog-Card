@@ -3,60 +3,63 @@
 *::after {
   box-sizing: border-box;
 }
-@font-face{
-    font-family: figTree;
-    src: url(assets/fonts/Figtree-VariableFont_wght.ttf)
+@font-face {
+  font-family: figTree;
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
-body{
-    background-color: hsl(47, 88%, 63%);
-    padding: 1rem;
-    font-family: figTree, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100svh;
+body {
+  background-color: hsl(47, 88%, 63%);
+  padding: 1rem;
+  font-family: figTree, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
 }
-.card{
-    border: 2px solid hsl(0, 0%, 0%);
-    padding: 15px;
-    max-width: 23rem;
-    border-radius: 20px;
-    background-color: hsl(0, 0%, 100%);
-    box-shadow: 19px 15px 0px 5px black;
+.card {
+  border: 2px solid hsl(0, 0%, 0%);
+  padding: 15px;
+  max-width: 23rem;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 7px 7px 0px 0px black;
 }
-svg{
-    /* display: block; */
-    max-width: 100%;
-    margin-bottom: 1rem;
-    border-radius: 15px;
+svg {
+  /* display: block; */
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 15px;
 }
-.learning-text{
-    background-color: hsl(47, 88%, 63%);
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 6px;
-    display: flex;
-    justify-content: center;
-    max-width: 25%;
+.learning-text {
+  background-color: hsl(47, 88%, 63%);
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  max-width: 30%;
 }
-.publish-text{
-    font-weight: 500;
+.publish-text {
+  font-weight: 500;
 }
-.description{
-    color: hsl(0, 0%, 50%);
-    font-size: 1rem;
+.description {
+  color: hsl(0, 0%, 50%);
+  font-size: 1rem;
 }
-.parent-div{
-    display: flex;
-    column-gap: 1em;
-    /* border: 1px solid black; */
+.parent-div {
+  display: flex;
+  column-gap: 1em;
+  /* border: 1px solid black; */
 }
-#child1{
-    height: 3rem;
-    /* border: 1px solid black; */
+#child1 {
+  height: 3rem;
+  /* border: 1px solid black; */
 }
-#child2{
-    font-weight: bold;
+#child2 {
+  font-weight: bold;
 }
+
+/* WORK ON THE BOX SHADOW, THE AVATAR AND ALSO LOOK IF YOU
+CAN FIND THE BOLDED FIGTREE TO HAVE BETTER TEXT */
