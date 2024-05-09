@@ -27,7 +27,6 @@ body {
   box-shadow: 7px 7px 0px 0px black;
 }
 svg {
-  /* display: block; */
   max-width: 100%;
   margin-bottom: 1rem;
   border-radius: 15px;
@@ -51,15 +50,10 @@ svg {
 .parent-div {
   display: flex;
   column-gap: 1em;
-  /* border: 1px solid black; */
 }
 #child1 {
-  height: 3rem;
-  /* border: 1px solid black; */
+  height: 3rem; 
 }
 #child2 {
   font-weight: bold;
 }
-
-/* WORK ON THE BOX SHADOW, THE AVATAR AND ALSO LOOK IF YOU
-CAN FIND THE BOLDED FIGTREE TO HAVE BETTER TEXT */
